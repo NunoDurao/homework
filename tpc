@@ -1,0 +1,35 @@
+#The mood checker
+disp = input('Como está esse astral?')
+if disp == 'Feliz':
+    print('É muito bom ver-te feliz!')
+elif disp == 'Nervoso':
+    print('Respira fundo 3 vezes!')
+elif disp == 'Triste':
+    print('Anima-te!!A vida são 2 dias e o carnaval são 3:)')
+elif disp == 'Excitado':
+    print('Toma um banho de água fria :D')
+elif disp == 'Relaxado':
+    print('Assim é que estás bem ;)')
+else:
+    print('Não reconheço esse astral!')
+
+#Guess the secret number
+segredo = 10
+adivinha = int(input('Adivinha qual é o número secreto:'))
+if adivinha == segredo:
+    print('Parabéns!!!Acertaste!!!')
+else:
+    print('Perdeste!!!Tenta de novo :P')
+
+#Calculator
+n1 = int(input('Escolhe um número: '))
+n2 = int(input('Escolhe outro número: '))
+oper = input('Escolhe uma operação: ')
+if oper == '+':
+    print(n1 + n2)
+elif oper == '-':
+    print(n1 - n2)
+elif oper == '*':
+    print(n1 * n2)
+else:
+    print(n1 / n2)
